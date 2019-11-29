@@ -3,7 +3,7 @@
 @section('content')
 
 <div id="app">
-    <form>
+    <form load="init">
         <div class="container">
             <section class="section">
 
@@ -25,7 +25,7 @@
 </div>
 
 <script>
-    new Vue({
+    vue = new Vue({
     el:'#app',
     data:{
         name:'',
