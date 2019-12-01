@@ -16,9 +16,3 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('teste', function (Request $request) {
-    return view('teste');
-});
-Route::post('/teste/init', function () {
-    vue('vue','name','Felipe');
-});

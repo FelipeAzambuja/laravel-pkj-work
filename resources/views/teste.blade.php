@@ -18,7 +18,10 @@
                     <b-input placeholder="Teste" v-model="nomes[i]" expanded></b-input>
                     <b-button v-on:click.prevent="nomes.splice(i,1)" type="is-danger">Remove</b-button>
                 </b-field>
-
+                <form action="">
+                    <input name="nome" type="text">
+                    <button type="button" click="teste">Testar</button>
+                </form>
             </section>
         </div>
     </form>
